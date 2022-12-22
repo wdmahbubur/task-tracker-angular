@@ -42,3 +42,22 @@ header{
     background-color: rgb(35, 35, 35);
     transition: all 1s;
 }
+
+.form{
+    margin: 10px auto;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form-control{
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 2px solid rgb(199, 199, 199);
+    outline: none;
+    margin: 4px 0px;
+}
